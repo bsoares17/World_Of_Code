@@ -31,7 +31,33 @@
   padding: 10px;
 }
 </style>	
-		
+	
+		<script>
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title: {
+		text: "Desktop Search Engine Market Share - 2016"
+	},
+	data: [{
+		type: "pie",
+		startAngle: 240,
+		yValueFormatString: "##0.00\"%\"",
+		indexLabel: "{label} {y}",
+		dataPoints: [
+			{y: 4, label: "Average Growth Rate of Other Jobs"},
+			{y: 22, label: "Software Developers"},
+			{y: 8, label: "Web Developers"},
+			{y: 8, label: "Computer Support Specialist"},
+			{y: 31, label: "Information Security Analyst"}
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
 
   </head>
   <body>
@@ -65,11 +91,16 @@
 	    <p>Ada Lovelace, known as the "First Computer Programmer" was a close peer of Charles Babbage. While Babbage was working on the Analystical Engine, Lovelace constructed a sequence that could carry out an extensive seqeuence of mathmatical operations on this machine. This sequence, how ot calculate Bernoulli numbers, is regarded by computer historians as the first computer program. Today, Ada Lovelace is remembered yearly on Ada Lovelace Day and through her own programming langauge known as Ada. </p></center>
   </div>
 </div>
-	  <h1> Programming in Ada </h2>
+	  <h1>Programming in Ada</h2>
      <ul contenteditable="true">
 	     <li><p> How do we write "Hello World!"? </p></li>
      </ul>
-	
+	  <h1>Job Market</h1>
+	  
+	  <body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
 		  
 		  
 		  
