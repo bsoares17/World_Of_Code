@@ -9,3 +9,6 @@ h2 {
 body {
   background-color: #ff6666;
 }
+p {
+  text-align: justify;
+}
