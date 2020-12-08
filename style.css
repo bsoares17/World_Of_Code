@@ -9,14 +9,9 @@ h2 {
 h3 {
   font-family: 'Cedarville Cursive', cursive;
 }
-img {
-      float: left;
-			margin: 5px;
-}
 body {
   background-color: #ff6666;
 }
 p {
   font-family: 'Texturina', serif;
-  text-align: justify;
 }
