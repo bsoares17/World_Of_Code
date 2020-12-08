@@ -6,6 +6,9 @@ h2 {
   font-family: 'East Sea Dokdo', cursive;
   font-size: 25px;
 }
+h3 {
+  font-color: green;
+}
 body {
   background-color: #ff6666;
 }
