@@ -9,6 +9,10 @@ h2 {
 h3 {
   font-family: 'Cedarville Cursive', cursive;
 }
+h4 {
+  font-family: 'Ranchers', cursive;
+  font-size: 100px;
+}
 body {
   background-color: #ff6666;
 }
